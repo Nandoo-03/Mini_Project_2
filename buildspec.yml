@@ -12,4 +12,4 @@ phases:
       - docker tag brain-tasks-app:latest 195389696200.dkr.ecr.ap-south-1.amazonaws.com/brain-tasks-app:latest
   post_build:
     commands:
-      - echo post is done.
+      - echo post is done..
