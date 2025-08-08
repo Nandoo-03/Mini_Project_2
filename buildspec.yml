@@ -13,3 +13,4 @@ phases:
   post_build:
     commands:
       - echo post is done..
+      - docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/brain-tasks-app:latest
