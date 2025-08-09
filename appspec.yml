@@ -5,6 +5,6 @@ files:
     destination: /home/ubuntu
 hooks:
   AfterInstall:
-  - location: deploy.sh
-    time: 300
-    runas: ubuntu
+    - location: deploy.sh
+      time: 300
+      runas: ubuntu
