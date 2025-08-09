@@ -15,7 +15,7 @@ phases:
       - echo post is done..
       - docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/brain-tasks-app:latest
       - echo Pushed to ECR...!
-  artifacts:
+artifacts:
   files:
     - '**/*'
     - appspec.yml
